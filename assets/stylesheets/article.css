@@ -13,6 +13,7 @@ header.main {
   background-color: #fff;
   border-bottom: 1px solid #ddd;
   padding-left: 80px;
+  z-index: 1;
 }
 
 nav.controls {
@@ -205,15 +206,17 @@ figcaption .credit {
 article .content p {
   line-height: 25px;
   padding: 10px 0;
+  max-width: 600px;
 }
 
 article .content {
   margin: 0 50px 0 80px;
-  max-width: 600px;
+  padding-top: 20px;
 }
 
 article footer {
   font-size: 12px;
+  max-width: 600px;
   color: #ddd;
 }
 
@@ -224,4 +227,82 @@ article footer:before {
   background-color: black;
   display: block;
   margin: 20px 0;
+}
+
+/* article image */
+
+article figcaption {
+  position: absolute;
+}
+
+.content .image p {
+  color: #aaa;
+  font-size: 14px;
+  line-height: initial;
+}
+
+section.image {
+  width: 90%;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  padding: 20px 0;
+  position: relative;
+}
+
+section.image figcaption {
+  font: 12px sans-serif;
+  line-height: 18px;
+  width: 23%;
+}
+
+section.image figure {
+  margin: 0;
+}
+
+section.image figcaption span {
+  text-transform: uppercase;
+  padding-right: 8px;
+  font-weight: bold;
+}
+
+section.image h2 {
+  font-size: 20px;
+}
+
+#cap1 {
+  top: 35%;
+}
+
+#cap2 {
+  top: 35%;
+  left: 25%;
+}
+
+#cap3 {
+  top: 35%;
+  left: 51%;
+}
+
+#cap4 {
+  top: 35%;
+  left: 77%;
+}
+
+#cap5 {
+  top: 74%;
+}
+
+#cap6 {
+  top: 74%;
+  left: 25%;
+}
+
+#cap7 {
+  top: 74%;
+  left: 51%;
+}
+
+#cap8 {
+  top: 74%;
+  left: 77%;
 }

@@ -1,0 +1,122 @@
+body {
+  margin-left: 30px;
+  box-shadow: -5px 0 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+}
+
+header {
+  top: 0;
+  right: 0;
+  left: 30px;
+  position: fixed;
+  height: 60px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding-left: 80px;
+}
+
+nav.controls {
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
+}
+
+.related {
+  padding-top: 60px;
+}
+
+article figure img {
+  max-width: 500px;
+}
+
+.nav-button.gear .icon {
+  background: url("../images/sprite-no-repeat.svg") no-repeat -34px -247px;
+  margin-right: 0;
+}
+
+.nav-button.gear {
+  border: none;
+  padding: 10px;
+}
+
+button.user {
+  background-color: #6288a5;
+  border-color: #4d7b9f;
+  border-width: 1px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+button.user:hover {
+  background-color: #4d7b9f;
+}
+
+button.gear:hover {
+  background-color: #eee;
+}
+
+.sections-dropdown .icon {
+  background: url("../images/sprite-no-repeat.svg") no-repeat -490px -214px;
+}
+
+.nav-button .icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.sections-dropdown {
+  position: absolute;
+  top: 15px;
+  left: -20px;
+}
+
+.nav-button {
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 5px 8px;
+  background-color: #fff;
+  color: black;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #eee;
+}
+
+header .links {
+  margin-top: 20px;
+}
+
+header nav {
+  display: inline-block;
+}
+
+.links .nav-button {
+  border: none;
+}
+
+.home.icon {
+  background: url("../images/sprite-no-repeat.svg") no-repeat -83px -280px;
+}
+
+.search.icon {
+  background: url("../images/sprite-no-repeat.svg") no-repeat -404px -214px;
+}
+
+header .logo {
+  display: inline-block;
+  width: 185px;
+  height: 26px;
+  background-image: url("../images/nyt-logo-185x26.png");
+  margin: 10px 100px;
+  vertical-align: middle;
+}
